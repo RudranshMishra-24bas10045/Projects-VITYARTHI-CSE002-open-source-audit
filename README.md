@@ -9,8 +9,9 @@
 Follow these steps in a Linux Terminal (Ubuntu/Debian preferred):
 
 1. **Grant Permissions:** 
-   Run `chmod +x script1.sh script2.sh script3.sh script4.sh script5.sh`
-2. **Run Individual Audits:**
+   Run `chmod +x *.sh`
+   though it is advised to run `chmod +x script1.sh` then script2.sh till script3.sh one by one individually.
+3. **Run Individual Audits:**
    - System Identity: `./script1.sh`
    - Package Audit: `./script2.sh`
    - Disk/Permissions: `./script3.sh`
